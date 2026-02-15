@@ -1,0 +1,9 @@
+# Input
+tinggi = float(input("Masukkan tinggi badan (meter): "))
+bmi = float(input("Masukkan BMI yang diharapkan: "))
+
+# Menghitung berat badan
+berat_badan = bmi * (tinggi ** 2)
+
+# Hasil
+print(f"Berat badan yang dibutuhkan: {berat_badan:.2f} kg")
